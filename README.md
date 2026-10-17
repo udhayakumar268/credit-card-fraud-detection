@@ -29,8 +29,9 @@ The Time column was excluded from model training, and Amount was standardized us
 The dataset is not included in this repository. Download `creditcard.csv` from Kaggle and place it in the project root.
 
 ## Project Structure
+
 fraud_detection/
-├── api.py  
+├── api.py
 ├── fraud_detection.py
 ├── requirements.txt
 ├── README.md
@@ -53,7 +54,6 @@ fraud_detection/
         ├── random_forest_feature_importance.png
         └── random_forest_permutation_importance.png
 ```
-
 ## Model Performance
 
 The final selected model is Random Forest, with a decision threshold of 0.40 selected using validation-set F1 score.
@@ -73,28 +73,6 @@ The final selected model is Random Forest, with a decision threshold of 0.40 sel
 The model correctly detected 82 of 98 fraudulent transactions in the test set.
 
 The test set was held out from model training and threshold selection.
-
-## Model Visualizations
-
-### Random Forest Confusion Matrix
-
-![Random Forest Confusion Matrix](outputs/figures/random_forest_confusion_matrix.png)
-
-### Decision Threshold Tuning
-
-![Random Forest Threshold Tuning](outputs/figures/random_forest_threshold_tuning.png)
-
-### Feature Importance
-
-![Random Forest Feature Importance](outputs/figures/random_forest_feature_importance.png)
-
-### Gaussian Anomaly Detection
-
-![Gaussian Log Probability Distribution](outputs/figures/gaussian_log_probability.png)
-
-### Class Imbalance
-
-![Transaction Class Distribution](outputs/figures/class_distribution.png)
 
 ## Installation
 
