@@ -30,6 +30,9 @@ The dataset is not included in this repository. Download `creditcard.csv` from K
 
 ## Project Structure
 
+## Project Structure
+
+```text
 fraud_detection/
 ├── api.py
 ├── fraud_detection.py
@@ -41,18 +44,17 @@ fraud_detection/
 │   ├── train.py
 │   ├── evaluate.py
 │   └── predict.py
-├── models/                  
 └── outputs/
     └── figures/
         ├── class_distribution.png
-        ├── gaussian_log_probability.png
         ├── gaussian_confusion_matrix.png
+        ├── gaussian_log_probability.png
         ├── isolation_forest_confusion_matrix.png
         ├── logistic_regression_confusion_matrix.png
         ├── random_forest_confusion_matrix.png
-        ├── random_forest_threshold_tuning.png
         ├── random_forest_feature_importance.png
-        └── random_forest_permutation_importance.png
+        ├── random_forest_permutation_importance.png
+        └── random_forest_threshold_tuning.png
 ```
 ## Model Performance
 
