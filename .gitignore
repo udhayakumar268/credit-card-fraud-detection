@@ -1,0 +1,30 @@
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Dataset
+creditcard.csv
+
+# Trained model
+models/*.joblib
+
+# Generated metrics
+outputs/metrics/
+
+# Duplicate output files
+outputs/random_forest_confusion_matrix.png
+outputs/random_forest_test_metrics.csv
+outputs/random_forest_validation.csv
+
+# Editor files
+.vscode/
+
+# Local project report
+project_report.txt
